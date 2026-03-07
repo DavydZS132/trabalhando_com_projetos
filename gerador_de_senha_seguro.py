@@ -1,7 +1,7 @@
 import secrets
 import string
 
-alfabeto = string.ascii_letters + string.digits
+alfabeto = string.ascii_letters + string.digits + string.punctuation
 senha = ''.join(secrets.choice(alfabeto) for i in range(12))
 print(senha)
 
