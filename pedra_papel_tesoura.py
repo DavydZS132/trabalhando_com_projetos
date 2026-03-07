@@ -20,4 +20,3 @@ def jogo(jogo_digitado):
 jogador_digitado = input('Digite Pedra, Papel ou Tesoura: ').lower()
 
 print(jogo(jogador_digitado))
-
